@@ -1,4 +1,4 @@
-# Chrome UA on Google for Firefox Android
+# Firefox iOS UA on Google for Firefox Android
 
 This addon for Firefox for Android sends a Firefox for iOS user agent when visiting the Google search domains.
 It's useful because Google serves a "lite" version of their mobile page to non-webkit browsers.
