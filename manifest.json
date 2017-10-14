@@ -1,10 +1,10 @@
 {
 
-    "description": "Sets the Useragent of Firefox Android to Chrome whilst browsing Google's search. This provides the more feature rich Webkit experience",
+    "description": "Sets the Useragent of Firefox Android to Firefox iOS whilst browsing Google's search. This provides the more feature rich Webkit experience",
     "manifest_version": 2,
-    "name": "Chrome UA on Google for Firefox Android",
+    "name": "Firefox iOS UA on Google for Firefox Android",
     "version": "1.0",
-    "homepage_url": "https://github.com/JonathanNakandala/Chrome-UA-for-Firefox-Android-on-Google",
+    "homepage_url": "https://github.com/nitricware/Firefox-iOS-UA-on-Android",
     "icons": {
         "48": "icons/icon.png",
         "96": "icons/icon@2x.png"
