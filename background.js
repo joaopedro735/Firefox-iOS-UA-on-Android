@@ -1,4 +1,3 @@
-"use strict";
 /*
 Initialize the UA;
 */
@@ -10,6 +9,7 @@ function rewriteUserAgentHeaderBlocking(e) {
     for (let header of e.requestHeaders) {
         if (header.name.toLowerCase() === "user-agent") {
             header.value = ua;
+            console.log("sending ua: "+ua)
         }
     }
     return { requestHeaders: e.requestHeaders };
@@ -21,4 +21,13 @@ only for the target page.
 
 Make it "blocking" so we can modify the headers.
 */
-browser.webRequest.onBeforeSendHeaders.addListener(rewriteUserAgentHeaderBlocking, { urls: targetPage }, ["blocking", "requestHeaders"]);
+browser.webRequest.onBeforeSendHeaders.addListener(
+    rewriteUserAgentHeaderBlocking, 
+    {
+        urls: targetPage
+    },
+    [
+        "blocking",
+        "requestHeaders"
+    ]
+);
