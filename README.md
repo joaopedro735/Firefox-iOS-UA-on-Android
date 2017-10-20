@@ -5,7 +5,7 @@ It's useful because Google serves a "lite" version of their mobile page to non-w
 It seems that Firefox can handle the "full" version of the site well enough that the extra functionality is beneficial.
 Firefox for iOS is used because Google search tries to open certain URLs in Apps that are not installed on the device when browsing Google search with a Chrome UA.
 
-It's not yet available from the Mozilla addon site.
+It's available from the mozilla site: https://addons.mozilla.org/de/firefox/addon/firefox-ios-ua-on-google/
 
 This is the User Agent used:
 `Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) FxiOS/1.0 Mobile/12F69 Safari/600.1.4`
