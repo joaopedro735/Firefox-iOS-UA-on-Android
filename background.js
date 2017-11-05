@@ -1,7 +1,8 @@
 /*
 Initialize the UA;
 */
-var ua = "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) FxiOS/1.0 Mobile/12F69 Safari/600.1.4";
+var ua = "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) FxiOS/1.0 Mobile/15A356 Safari/604.1";
+
 /*
 Rewrite the User-Agent header to "ua".
 */
@@ -22,7 +23,7 @@ only for the target page.
 Make it "blocking" so we can modify the headers.
 */
 browser.webRequest.onBeforeSendHeaders.addListener(
-    rewriteUserAgentHeaderBlocking, 
+    rewriteUserAgentHeaderBlocking,
     {
         urls: targetPage
     },

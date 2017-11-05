@@ -1,10 +1,10 @@
 {
 
-    "description": "Sets the Useragent of Firefox Android to Firefox iOS whilst browsing Google's search. This provides the more feature rich Webkit experience",
+    "description": "Sets the Useragent of Firefox Android to Firefox iOS whilst browsing Google's search. This provides the more feature rich Webkit experience.",
     "manifest_version": 2,
     "author": "Kurt Höblinger/NitricWare",
     "name": "Firefox iOS UA on Google",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage_url": "https://github.com/nitricware/Firefox-iOS-UA-on-Android",
     "icons": {
         "48": "icons/icon.png",
