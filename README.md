@@ -1,4 +1,4 @@
-# Firefox iOS UA on Google for Firefox Android
+# Useragent Changer to Firefox iOS on Google for Firefox Android
 
 This addon for Firefox for Android sends a Firefox for iOS user agent when visiting the Google search domains.
 It's useful because Google serves a "lite" version of their mobile page to non-webkit browsers.
@@ -16,3 +16,5 @@ This addon is based on Chrome UA on Google for Firefox Android by JonathanNakand
 https://github.com/mdn/webextensions-examples/tree/master/user-agent-rewriter
 
 It's based on the new Webextensions standard.
+
+The name hase changed due to Mozilla's naming policy
