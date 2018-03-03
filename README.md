@@ -17,4 +17,6 @@ https://github.com/mdn/webextensions-examples/tree/master/user-agent-rewriter
 
 It's based on the new Webextensions standard.
 
-The name hase changed due to Mozilla's naming policy
+The name has changed due to Mozilla's naming policy.
+
+The icon has changed due to Mozilla's policy.
