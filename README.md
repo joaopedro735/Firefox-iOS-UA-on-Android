@@ -8,7 +8,7 @@ Firefox for iOS is used because Google search tries to open certain URLs in Apps
 It's available from the mozilla site: https://addons.mozilla.org/de/firefox/addon/firefox-ios-ua-on-google/
 
 This is the User Agent used:
-`Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) FxiOS/1.0 Mobile/12F69 Safari/600.1.4`
+`Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/20.0 Mobile/15E148 Safari/605.1.15`
 
 
 This addon is based on Chrome UA on Google for Firefox Android by JonathanNakandala which is based on user-agent-rewriter from:
