@@ -1,7 +1,7 @@
 /*
 Initialize the UA;
 */
-var ua = "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) FxiOS/1.0 Mobile/15A356 Safari/604.1";
+var ua = "Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/20.0 Mobile/15E148 Safari/605.1.15";
 
 /*
 Rewrite the User-Agent header to "ua".
